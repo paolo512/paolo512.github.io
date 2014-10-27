@@ -23,6 +23,7 @@ exclude:
   - "CHANGELOG.md"
   - "Gemfile"
   - "Gemfile.lock"
+  - "share-btns.html"
 permalink: :title
 defaults:
   -
