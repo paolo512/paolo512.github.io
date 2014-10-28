@@ -4,19 +4,6 @@ permalink: "/team/index.html"
 layout: team
 ---
 
-<div class="post-header-home">
-  <h1>
-    <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
-  </h1>
-  {% include post-header-home.html %}
-</div>
-<div class="post-excerpt-home">
-  {{ post.excerpt }}
-  <p class="text-left"><a href="{{ post.url | prepend:site.baseurl }}">Continue Reading &rarr;</a></p>
-</div>
-
-
-
 <a href="{{ "/resume" | prepend:site.baseurl }}"><i class="fa fa-chevron-left"> resume</i></a>
 <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-home"> home</i></a>
 <br/>
