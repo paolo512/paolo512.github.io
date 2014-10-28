@@ -547,6 +547,11 @@ margin-bottom: 15px;
   margin-bottom: 15px;
 }
 
+.square {
+width: 380px;
+height: 492px;
+margin-bottom: 15px;
+}
 #title #sitename,.resume span {
   color: #FF005D;
 }
