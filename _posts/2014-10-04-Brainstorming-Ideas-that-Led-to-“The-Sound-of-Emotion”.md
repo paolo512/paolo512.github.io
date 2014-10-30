@@ -10,15 +10,15 @@ These days my artistic leanings assert that "mixed media" should include some fo
 <h3>Rough Concepts</h3>
 Starting with the tech foundation (running on an iPad) and the goals gleaned from MSPTF and various sites, we started brainstorming to see what was feasible.  Here are some of the better ideas that surfaced:
 <ul>
-<li>A relationship guru for couples, centered around the participant's expressions (interesting, but fraught possible strife.. thrown out early for many reasons).</li>
-<li>A mystic figure, capable of describing the participant's mood (may be compelling once and for a short period of time – jettisoned).</li>
+<li>A relationship guru for couples, centered around the participant's expressions (interesting, but risky if wrong.. thrown out early).</li>
+<li>A mystic figure, capable of telling the participant's mood (may be compelling for a moment or for a short period of time – jettisoned).</li>
 <li>A tour guide, capable of understand if the participant is confused, happy or otherwise about the offered suggestions (interesting…).</li>
 </ul>
 <p>
 <h3>A Breakthrough</h3>
-One evening over takeout curry, Seth and I came up with the notion of having more than one iPad and that opened up possibilities for games, such as:
+One evening over takeout curry, team member Seth and I came up with the notion of having more than one iPad - that opened up possibilities for games, such as:
 <ul>
-<li>Maze challenges through SF (interesting but deleted).</li>
+<li>Maze challenges through SF (interesting but ultimately deleted).</li>
 <li>Mime challenges (interesting but competitive challenges felt less desirable).</li>
 <li>Playful denizen recognition to one of a few SF groups; bike messengers, tech, business, tourist, etc.  (beyond the scope of the technology - thrown out).</li>
 </ul>   
