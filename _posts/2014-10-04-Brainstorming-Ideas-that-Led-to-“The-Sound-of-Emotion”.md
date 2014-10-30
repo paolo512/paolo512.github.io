@@ -26,7 +26,8 @@ One evening over takeout curry, team member Seth and I came up with the notion o
 <h3>The Payoff</h3>
 After many hours of contemplation, it dawned on me to tie the participant's emotion to music - where people collaborate through multiple voices (i.e. combining four "voices/instruments" via four iPads).  The result should be collaborative and inclusive, rather than competitive and exclusive.
 <p> </p> 
-"The powerful psychological pull of music in modern life may derive from its innate ability to connect us to others."   Chris Loersch (University of Colorado)
+<blockquote>
+"The powerful psychological pull of music in modern life may derive from its innate ability to connect us to others."   Chris Loersch (University of Colorado)</blockquote>
 <p> </p>
 <h3>Can We Pull it Off?</h3>
 In a word - yes!  The Sound of Emotion installation should demonstrate that people from all cultures, demographics and socioeconomic characteristics will be drawn together in the creation of music.  Once attracted, the participant's involvement will deepen upon realizing their emotion is shaping the music and influencing the collaboration with fellow participants. Stay tuned.
