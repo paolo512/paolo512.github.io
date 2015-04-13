@@ -6,32 +6,50 @@ title: "events"
 <div class="text-left">
 </h2>San Francisco's Market Street Prototyping Festival</h2>
 
-<!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
-<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
-    <div class="slides"></div>
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="responsiveslides.min.js"></script>
 
-<script>
-blueimp.Gallery(
-    document.getElementById('links').getElementsByTagName('a'),
-    {
-        container: '#blueimp-gallery-carousel',
-        carousel: true
-    }
-);
+<ul class="rslides">
+  <li><img src="http://mmotion.com./soe/images/SOE.sign.png" alt="">this might work</li>
+  <li><img src="http://mmotion.com./soe/images/soe.col01.png" alt=""></li>
+</ul>
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  
+  <script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
 </script>
 
-
-<div id="links">
-    <a href="http://www.mmotion.com/soe/images/SOE.sign.png" title="The Sounds of Emotion at San Francisco's first-ever Market Street Prototyping Festival">
-        <img src="http://www.mmotion.com/soe/images/SOE.sign.png" alt="SOE-MSPF">
-    </a>
-    <a href="http://www.mmotion.com/soe/images/soe.col01.png" title="Complete strangers collaborating together on a composition.">
-        <img src="http://www.mmotion.com/soe/images/soe.col01.png" alt="SOE-MSPF">
-    </a>
 </div>
