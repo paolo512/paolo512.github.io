@@ -603,7 +603,7 @@ Slider
   padding: 15px;
   text-align: center;
   background: #000;
-  background: rgba(0,0,0, .8);
+  background: rgba(0,0,0, .5);
   color: #fff;
 }
 
