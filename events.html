@@ -15,9 +15,18 @@ title: "events"
 </ul>
   
   <script>
-  $(function() {
-    $(".rslides").responsiveSlides();
-  });
-</script>
+    $(function () {
+
+      // Slideshow 1
+      $("#slides1").responsiveSlides({
+        auto: false,
+        pagination: true,
+        nav: true,
+        fade: 500,
+        maxwidth: 800
+      });
+
+    });
+  </script>
 
 </div>
