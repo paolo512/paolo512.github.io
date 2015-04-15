@@ -3,7 +3,7 @@
   }
 
 .rslides_container {
-  margin-bottom: 5px;
+  margin-bottom: 50px;
   position: relative;
   float: left;
   width: 100%;
@@ -45,7 +45,7 @@
   background: #fff; /* Fix for IE6-9 */
   opacity: 0;
   filter: alpha(opacity=1);
-  width: 48%;
+  width: 100;
   text-indent: -9999px;
   overflow: hidden;
   height: 91%;
