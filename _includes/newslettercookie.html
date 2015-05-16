@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery Cookie + MailChimp</title>
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+
+		<form action="XXX" method="post" class="signup">
+			<input type="text" placeholder="Your Name..." name="FNAME" id="XXX">
+			<input type="email" placeholder="Your Email..." name="EMAIL" id="XXX">
+			<button type="submit" class="set">GO</button>
+		</form>
+		
+		<div class="subbed">You've already signed up, <a href="#">check this out</a> instead.</div>
+		
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+		
+		<script>
+			
+			
+			$(".set").on("click", function () { 
+				// where a user subscribes from the form on your site
+				$.cookie('subscriberCookie', 'subbed', { expires: 99999 });
+			});
+	
+			if (location.href.match(/utm\_source\=mailchimp/)){ 
+				// where you use url.com?utm_source=mailchimp from within your campaigns
+				$.cookie('subscriberCookie', 'subbed', { expires: 99999 });
+				var newSearch = location.search.replace(/utm_.*?(&|$)/g,""), newSearch = newSearch.length > 1 ? newSearch : "";
+				newSearch != location.search && window.history.replaceState({},'', location.href.replace(location.search, newSearch));
+
+			}
+			
+			if ($.cookie('subscriberCookie')) {
+				$('.signup').hide();
+				$(".subbed").show();
+			} else {
+				$('.signup').show();
+				$('.subbed').hide();				
+			}
+	
+		</script>
+
+	</body>
+</html>
